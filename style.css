@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: ; */
+    padding: 0px 90px;
+    padding-top: 150px;
+    gap: 80px;
+}
+#left{
+    height: 100%;
+    width: 40%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+}
+
+#left h1{
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 155px;
+    font-family: "work sans";
+    /* background-color: red; */
+
+}
+#bottom-left{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#color h5{
+    font-size: 20px ;
+    margin-right: 10px;
+}
+#color{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+#color1{
+    height: 14px;
+    width: 14px;
+    background-color: brown;
+    border-radius: 50%;
+}
+#color2{
+    height: 14px;
+    width: 14px;
+    background-color: burlywood;
+    border-radius: 50%;
+}
+#left h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+#left p{
+   
+    font-size: 20px;
+    width: 70%;
+    font-weight: 600;
+    color:#444;
+    line-height: 26px; 
+}
+#right{
+    /* border-radius: 20%; */
+    height: 90%;
+    width: 37%;
+    /* background-color: blue; */
+    position: relative;
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right-top h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "work sans";
+}
+#right-top h5{
+    font-size: 16px;
+
+}
+
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#black-spot{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(159, 159, 198);
+    columns: #fff;
+    border-radius: 50%;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+
+}
+#black-spot h5{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#black-spot h5 i{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#rotated
+{
+    position: absolute;
+    left: -10%;
+    /* background-color: red; */
+    bottom: 0;
+    rotate: -90deg;
+    font-family: "work sans";
+    font-size: 30px;
+    transform-origin: 0 0;
+}
+@media (max-width:600px){
+    #left h1{
+        font-size: 110px;
+        font-weight: 600;
+        line-height: 155px;
+        font-family: "work sans";
+        /* background-color: red; */
+    
+    }
+    #main{
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 40px 40px;
+        padding-top: 40px;
+        gap: 80px;
+    }
+    #left{
+        height: 40%;
+        width: 100%;
+        /* background-color: yellowgreen; */
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    
+    }
+    
+    #left h1{
+        font-size: 14vw;
+        font-weight: 600;
+        line-height: 18vw;
+        font-family: "work sans";
+        /* background-color: red; */
+    
+    }
+    #bottom-left{
+        height: 40%;
+        width: 100%;
+        /* background-color: yellow; */
+        margin-bottom: -1px;
+    }
+    #color h5{
+        font-size: 14px ;
+        /* background-color: blue; */
+        margin-right: 10px;
+        font-weight: 500;
+    }
+    #color{
+        margin-bottom: -5%;
+        /* background-color: blue; */
+        width: fit-content;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        border-radius: 50px;
+        border: 2px solid black;
+    }
+    #color1{
+        height: 14px;
+        width: 14px;
+        background-color: brown;
+        border-radius: 50%;
+    }
+    #color2{
+        height: 14px;
+        width: 14px;
+        background-color: burlywood;
+        border-radius: 50%;
+    }
+    #left h2{
+        margin-top: 50px;
+        font-size: 23px;
+        margin-bottom: 15px;
+    
+    }
+    #left p{
+        margin-bottom: 20px;
+        /* height: 10%; */
+        padding-top: -100px;
+       /* background-color: blue; */
+        font-size: 18px;
+        width: 70%;
+        font-weight: 600;
+        color:#444;
+        line-height: 26px; 
+    }
+    #right{
+        display: flex;
+        flex-direction: column;
+        padding-top: 200px;
+        /* border-radius: 20%; */
+        height: 100%;
+        width: 70%;
+        /* background-color: green; */
+        position: relative;
+    }
+    #right-top{
+        margin-top: 25px;
+        /* padding-top: 20px; */
+        height: 50px;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #right-top h4{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "work sans";
+        /* background-color: red; */
+    }
+    #right-top h5{
+        font-size: 16px;
+    
+    }
+    
+    
+    #right-top h5 i{
+        color: gold;
+    }
+    
+    #right img{
+        border-radius: 5%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #black-spot{
+        /* padding-bottom: -10px; */
+        /* position: absolute; */
+        height: 70px;
+        width: 70px;
+        background-color: rgb(159, 159, 198);
+        columns: #fff;
+        border-radius: 50%;
+        right: -10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 60%;
+    
+    }
+    #black-spot h5{
+        padding-top: 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #black-spot h5 i{
+
+        font-size: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    #rotated
+    {
+        position: absolute;
+        left: -10%;
+        /* background-color: red; */
+        bottom: 0;
+        rotate: -90deg;
+        font-family: "work sans";
+        font-size: 20px;
+        transform-origin: 0 0;
+    }
+}
