@@ -178,7 +178,7 @@ html,body
     }
     #left{
         height: 40%;
-        width: 100%;
+        width: 100vw;
         /* background-color: yellowgreen; */
         display: flex;
         flex-direction: column;
@@ -242,24 +242,25 @@ html,body
         /* height: 10%; */
         padding-top: -100px;
        /* background-color: blue; */
-        font-size: 18px;
-        width: 70%;
+        font-size: 16px;
+        width: 100%;
         font-weight: 600;
         color:#444;
         line-height: 26px; 
     }
     #right{
+        margin-bottom: -10px;
         display: flex;
         flex-direction: column;
-        padding-top: 200px;
+        padding-top: 100px;
         /* border-radius: 20%; */
         height: 100%;
-        width: 70%;
+        width: 100%;
         /* background-color: green; */
         position: relative;
     }
     #right-top{
-        margin-top: 25px;
+        margin-top: -33px;
         /* padding-top: 20px; */
         height: 50px;
         width: 100%;
